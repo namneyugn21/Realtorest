@@ -72,11 +72,8 @@ GitHub: https://github.com/MalaikaQ
 
 
 ## Documentation
-### Proposal
-https://docs.google.com/document/d/18ciUDUsWcUADZHcMQhobZ8FYAu0NfuLscaJnMyYtte0
-
 ### Requirements and Specification Document
-https://docs.google.com/document/d/1_oOKkc0if6xlwWooyd694t9nAQmbeQBu31ZJ956VdmE/edit?usp=sharing
+https://docs.google.com/document/d/1M230-rUDm0COryomhOioVhkQSJLFG93NoL5_G9oMAYM/edit?usp=sharing
 
 
 ## Useful Links
