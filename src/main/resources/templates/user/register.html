@@ -40,6 +40,16 @@
                     </div>
                     <form action="/users/add" method="post" onsubmit="return validateRegistration()">
                         <input type="hidden" name="redirectUrl" value="/" />
+                        <section class="mb-3 register-name">
+                            <section class="mb-3" style="width: 50%;">
+                                <label class="form-label">First Name</label>
+                                <input type="text" class="form-control" name="firstName" required />
+                            </section>
+                            <section class="mb-3" style="width: 50%;">
+                                <label class="form-label">Last Name</label>
+                                <input type="text" class="form-control" name="lastName" required />
+                            </section>
+                        </section>
                         <section class="mb-3">
                             <label class="form-label">Username</label>
                             <input type="text" class="form-control" name="username" required />
