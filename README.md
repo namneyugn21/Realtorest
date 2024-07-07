@@ -1,8 +1,20 @@
 # **Realtorest**
 A small web application used to host a website. Designed for hosting a personal website for realtors. Exploration, sorting, and direct contact functionalities are available for visiting users, while enabling Admin to manage listings and engage with potential buyers effectively, all within a user-friendly, ad-free environment.
 
+### Disclaimer
+Realtorest frontend and database used to be hosted on Render, however, we (as university students) do not have unlimited funds that can keep the database to be hosted forever. <br>
+I have tested and wrote the instructions below, but if there is something coming up during the process, kindly reach me at: vhn1@sfu.ca
+
+### How to run the application
+1. Running `PostgreSQL`: <br>
+- Make sure you have `PostgreSQL` running on your computer, and create a database `realtorest`.
+- You can create the tables by copy and paste the code provided in `PostgreSQLCode.txt` file.
+- Make sure to enter your `PostgreSQL` credentials in the `application.properties` file.
+2. Adding `Google Maps API`: <br>
+- If you want to add `Google Maps API` key, please navigate to `PropertyController.java` and add your key on `line 60`.
+
 ### Port ID
-The port when deploying this project to `localhost` have been changed to `9090`. This is because `8080` is being used by a local LLM that have the port number hardcoded in.
+The port when deploying this project to `localhost` have been changed to `9090`.
 
 ### Admin Pages
 The admin pages can be accessed by going to `/dev`, `/dev/users`, `/dev/properties`, and `/dev/admins`. It have some useful functions, like displaying the table of all users and adding users manually. Those pages will be disabled in the final product, but while developing, they are pretty useful.

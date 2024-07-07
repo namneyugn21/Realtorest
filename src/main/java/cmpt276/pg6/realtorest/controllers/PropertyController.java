@@ -57,8 +57,7 @@ public class PropertyController extends BaseController {
 
         addModelAttributeFromSession(session, model);
 
-        Dotenv dotenv = Dotenv.configure().directory("./etc/secrets").load();
-        model.addAttribute("googleMapsApiKey", dotenv.get("GOOGLE_MAPS_API_KEY"));
+        model.addAttribute("googleMapsApiKey", "YOUR_API_KEY");
 
         Sort sort = Sort.by(sortOrder.equalsIgnoreCase("ASC") ? Sort.Direction.ASC : Sort.Direction.DESC, "price");
 
